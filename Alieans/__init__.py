@@ -1,4 +1,6 @@
 from string import Template
+class MyTemplate(Template):
+    delimiter = '*'
 
 def Main():
     cart = []
